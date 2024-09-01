@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+ 
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+nav{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    box-sizing: border-box;
+    width: 79vw;
+    justify-content: space-between;
+    padding: 22px;
+    /* border: 2px solid green; */
+ 
+}
+
+.container nav .logo {
+    
+    height: 6.5vh;
+    color: rgb(229, 9, 20);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.btns {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.langbtn {
+    fill: white;
+    stroke: red;
+}
+
+.btns .btn1 {
+    border: 5px solid white;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    padding: 3px 8px;
+    border: 2px solid white;
+    margin: 0px 0.5vw;
+}
+
+.lang {
+    background: none;
+    color: white;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.btn2 {
+    background-color: rgb(227, 51, 60);
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.temp{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.7;
+    
+    position: absolute;
+    top: 0;
+    background: black;
+    box-sizing: border-box;
+}
+.box {
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   position: relative;
+   z-index: 10;
+}
+ .head{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.text1 {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+   
+}
+
+.text2 {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    
+}
+
+#email {
+
+    height: 40px;
+    width: 270px;
+    /* background: transparent; */
+    border-radius: 4px;
+    margin-right: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    
+}
+::placeholder{
+    color: white;
+    font-weight: 400;
+}
+
+
+.startbtn {
+    margin-top: 4px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+}
+
+.mainbtns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.start {
+    height: 7vh;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding-right: 1.2vw;
+    padding-left: 1vw;
+    box-sizing: border-box;
+}
+
+.seperation {
+    background-color: rgb(81, 80, 80);
+    height: 8px;
+    
+}
+
+.first {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sectext {
+    color: rgb(255, 255, 255);
+    font-family: "Martel Sans", sans-serif;
+}
+
+.sectext1 {
+    font-size: 48px;
+    font-weight: 900;
+  
+}
+
+.sectext2 {
+    font-size: 24px;
+    font-weight: 400;
+
+ 
+}
+.secimg{
+    
+    position: relative;
+}
+.secimg img {
+    
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    right: 72px;
+   
+}
+
+.phonetext{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+}
+.third .secondvid{
+    width: 25vw;
+    top: 38px;
+    right: 121px;
+}
+
+
+footer{
+    margin: 64px;
+}
+.fqu h2{
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.fqu{
+    color: white;
+    box-sizing: border-box;
+    max-width: 80vw;
+    margin: auto;
+    background:black;
+    margin-top: 35px;
+  
+}
+.q{
+    background: rgba(0, 0, 0, 0);
+    font-size: 24px ;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #2d2d2d;
+    padding:24px ;
+    margin: 8px;
+    transition: all 0.2s ease-in;
+
+}
+.q:hover{
+    cursor: pointer;
+    background-color: #414141;
+
+}
+.ftext{
+    margin-top: 42px;
+    padding-bottom: 0;
+}
+.fpad{
+    margin-bottom: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+    padding: 30px;
+    gap: 15px;
+    box-sizing: border-box;
+
+}
+.grid a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width:1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 80vw;
+
+    }
+    .sectext1{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .sectext2{
+        font-size: 18px;
+    }
+    .head{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .text2{
+        font-size: 18px;
+       
+    }
+    .secimg{
+        width: 40%;
+    }
+
+    .first{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .secimg img{
+        width: 40vw;
+    }
+    .secimg video{
+        width: 100%;
+        top: 15%;
+        left: 10%;
+    
+    }
+    .fqh2{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .q{
+        font-size: 18px;
+    }
+    .third .secondvid{
+        width: 100%;    
+        top: 15%;
+        right: 10%;
+    }
+}
+@media (max-width : 600px) {
+    .mainbtns{
+        flex-direction: column;
+    }
+    .items{
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
